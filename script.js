@@ -160,19 +160,19 @@ function updateTime() {
 
 function sayHiAndChangeIcon(hour) {
     if (hour >= 5 && hour < 12) {
-        $(".day-time-icon").attr("src", "/img/morning.svg");
+        $(".day-time-icon").attr("src", "./img/morning.svg");
         return "Good morning stranger!";
     } else if (hour >= 12 && hour < 18) {
-        $(".day-time-icon").attr("src", "/img/afternoon.svg");
+        $(".day-time-icon").attr("src", "./img/afternoon.svg");
         return "Good afternoon stranger!";
     } else if (hour >= 18 && hour < 21) {
-        $(".day-time-icon").attr("src", "/img/night.svg");
+        $(".day-time-icon").attr("src", "./img/night.svg");
         return "Good evening stranger!";
     } else if (hour >= 21 && hour < 24) {
-        $(".day-time-icon").attr("src", "/img/night.svg");
+        $(".day-time-icon").attr("src", "./img/night.svg");
         return "Good night stranger!";
     } else {
-        $(".day-time-icon").attr("src", "/img/midnight.svg");
+        $(".day-time-icon").attr("src", "./img/midnight.svg");
         return "Good midnight stranger!";
     }
 }
