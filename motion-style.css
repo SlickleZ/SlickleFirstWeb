@@ -1,0 +1,241 @@
+.fadeSlideUp {
+    -webkit-animation: slideUp 0.8s ease forwards;
+    animation: slideUp 0.8s ease forwards;
+}
+
+.fadeSlideUpTran {
+    -webkit-animation: slideUpTran 0.8s ease forwards;
+    animation: slideUpTran 0.8s ease forwards;
+}
+
+/* ----------------Slide from down part--------------------- */
+.fadeSlideDown {
+  -webkit-animation: slideDown 0.8s ease forwards;
+  animation: slideDown 0.8s ease forwards;
+}
+.facebook{
+    -webkit-animation: slideDown 0.5s ease 0.2s forwards;
+    animation: slideDown 0.5s ease 0.2s forwards;
+}
+
+.instagram{
+    -webkit-animation: slideDown 0.5s ease 0.6s forwards;
+    animation: slideDown 0.5s ease 0.6s forwards;
+}
+
+.mail{
+    -webkit-animation: slideDown 0.5s ease 1s forwards;
+    animation: slideDown 0.5s ease 1s forwards;
+}
+
+.tel{
+    -webkit-animation: slideDown 0.5s ease 1.4s forwards;
+    animation: slideDown 0.5s ease 1.4s forwards;
+}
+/* ------------------------------------------------------ */
+
+
+/* ----------------Slide from left part--------------------- */
+
+.fadeSlideleft {
+  -webkit-animation: slideLeft 0.8s ease forwards;
+  animation: slideLeft 0.8s ease forwards;
+}
+
+.fadeSlideLeftTran {
+    -webkit-animation: slideLeftTran 0.8s ease forwards;
+    animation: slideLeftTran 0.8s ease forwards;
+}
+
+.schoolNameSlideLeft {
+    -webkit-animation: slideLeftEdu 0.8s ease forwards;
+    animation: slideLeftEdu 0.8s ease forwards;
+}
+
+.programNameSlideLeft {
+    -webkit-animation: slideLeftEdu 0.8s ease 0.3s forwards;
+    animation: slideLeftEdu 0.8s ease 0.3s forwards;
+}
+
+.durationsSlideLeft {
+    -webkit-animation: slideLeftEdu 0.8s ease 0.6s forwards;
+    animation: slideLeftEdu 0.8s ease 0.6s forwards;
+}
+
+.card1fromLeft{
+    -webkit-animation: slideLeft 0.8s ease 0.2s forwards;
+    animation: slideLeft 0.8s ease 0.2s forwards;
+}
+
+.card2fromLeft{
+    -webkit-animation: slideLeft 0.8s ease 0.6s forwards;
+    animation: slideLeft 0.8s ease 0.6s forwards;
+}
+
+.card3fromLeft{
+    -webkit-animation: slideLeft 0.8s ease 1s forwards;
+    animation: slideLeft 0.8s ease 1s forwards;
+
+}.card4fromLeft{
+    -webkit-animation: slideLeft 0.8s ease 1.4s forwards;
+    animation: slideLeft 0.8s ease 1.4s forwards;
+}
+
+.card5fromLeft{
+    -webkit-animation: slideLeft 0.8s ease 1.8s forwards;
+    animation: slideLeft 0.8s ease 1.8s forwards;
+}
+
+.card6fromLeft{
+    -webkit-animation: slideLeft 0.8s ease 2.2s forwards;
+    animation: slideLeft 0.8s ease 2.2s forwards;
+}
+/* ------------------------------------------------------ */
+
+
+
+/* ----------------Slide from right part--------------------- */
+
+.fadeSlideRight {
+  -webkit-animation: slideRight 0.8s ease forwards;
+  animation: slideRight 0.8s ease forwards;
+}
+
+.fadeSlideRightTran {
+    -webkit-animation: slideRightTran 0.8s ease forwards;
+    animation: slideRightTran 0.8s ease forwards;
+}
+
+.EduSlideRight {
+    -webkit-animation: slideRightEdu 0.15s ease forwards;
+    animation: slideRightEdu 0.15s ease forwards;
+}
+
+.card1fromRight{
+    -webkit-animation: slideRight 0.8s ease 1.6s forwards;
+    animation: slideRight 0.8s ease 1.6s forwards;
+}
+
+.card2fromRight{
+    -webkit-animation: slideRight 0.8s ease 2.2s forwards;
+    animation: slideRight 0.8s ease 2.2s forwards;
+}
+
+.card3fromRight{
+    -webkit-animation: slideRight 0.8s ease 2.8s forwards;
+    animation: slideRight 0.8s ease 2.8s forwards;
+}
+/* ------------------------------------------------------ */
+
+
+@keyframes slideRight {
+  0% {
+    /* -webkit-transform: translateX(40px); */
+      right: 0px;
+      opacity: 0;
+  }
+  100% {
+    /* -webkit-transform: translateX(0px); */
+      right: 40px;
+      opacity: 1;
+  }
+}
+
+@keyframes slideRightTran {
+    0% {
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+  0% {
+      /* -webkit-transform: translateX(0px); */
+      left: 0px;
+      opacity: 0;
+  }
+  100% {
+      /* -webkit-transform: translateX(40px); */
+      left: 40px;
+      opacity: 1;
+  }
+}
+
+@keyframes slideLeftTran {
+    0% {
+        -webkit-transform: translateX(0%);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateX(5%);
+        opacity: 1;
+    }
+  }
+
+@keyframes slideLeftEdu {
+    0% {
+        left: 0px;
+        opacity: 0;
+    }
+    100% {
+        left: 25px;
+        opacity: 1;
+    }
+}
+
+@keyframes slideRightEdu {
+    0% {
+        left: 25px;
+        opacity: 1;
+    }
+    100% {
+        left: 0px;
+        opacity: 0;
+    }
+}
+
+
+@keyframes slideDown {
+  0% {
+    top: 0px;
+    /* -webkit-transform: translateY(-30px); */
+      opacity: 0;
+  }
+  100% {
+      top: 40px;
+    /* -webkit-transform: translateY(0px); */
+      opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+    0% {
+        /* -webkit-transform: translateY(40px); */
+        bottom: 0px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 40px;
+        /* -webkit-transform: translateY(0px); */
+        opacity: 1;
+    }
+}
+
+@keyframes slideUpTran {
+    0% {
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
