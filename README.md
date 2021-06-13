@@ -8,4 +8,6 @@ Nicely worked in PC with 1920x1080 resolution.
 
 With JQuery, JavaScript, HTML and CSS
 
+https://slicklez.github.io/SlickleFirstWeb/
+
 Enjoy it!!!
